@@ -23,7 +23,7 @@
  #include "WProgram.h"
 #endif
 
-typedef struct max31855readings {
+struct max31855readings {
   double internal;
   double celsius;
 };
